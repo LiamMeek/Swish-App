@@ -128,6 +128,7 @@ final class HomeShotClassificationVM: ObservableObject {
 
 struct HomeInferenceAPIClient {
     func classify(sampleBuffer: Any) async throws -> String { "unknown" }
+//    testing
 }
 
 struct HomeScreenWithLoader<Content: View>: View {
